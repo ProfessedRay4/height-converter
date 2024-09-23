@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Converter</title>
+    <link rel="stylesheet" href="misc/style.css">
+</head>
+<body>
+    <div class="container", id="title">
+        <h1>Height Converter</h1>
+        <div class="input-group">
+            <label for="feet">Feet:</label>
+            <input type="number" id="feet" name="feet" placeholder="0 - 8 ft" autocomplete="off" >
+        </div>
+        <div class="input-group">
+            <label for="inches">Inches:</label>
+            <input type="number" id="inches" name="incehs" placeholder="0 - 12 in" autocomplete="off">
+        </div>
+        <button id="calculate" onClick="calculateHeight()">Calculate</button>
+        <div id="result"></div>
+        <div class="output-group">
+            <label for="result"></label>
+        </div>
+    </div>
+    <script src="misc/script.js"></script>
+</body>
+</html> 
